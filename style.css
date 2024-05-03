@@ -108,6 +108,7 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 48px;
+  margin-bottom: 64px;
 }
 
 .container-info {
@@ -129,4 +130,33 @@ h1 {
   border-radius: 20px;
   border: #3882F6 4px solid;
   margin-bottom: 8px;
+}
+
+.quote-content {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding: 64px 0px;
+}
+
+.quote-container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-container p {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  margin: 0px;
+}
+
+.quote-container h4 {
+  color: #1F2937;
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 0px;
+  align-self: flex-end;
 }
