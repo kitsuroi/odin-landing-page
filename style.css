@@ -137,6 +137,7 @@ h1 {
   display: flex;
   justify-content: center;
   padding: 64px 0px;
+  margin-bottom: 64px;
 }
 
 .quote-container {
@@ -159,4 +160,32 @@ h1 {
   font-weight: bolder;
   margin: 0px;
   align-self: flex-end;
+}
+.call-block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+.call-content {
+  width: 800px;
+  background-color: #3882F6;
+  border-radius: 6px;
+  padding: 32px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.call-content h3 {
+  color: #F9FAF8;
+  margin: 0px;
+}
+
+.call-content p {
+  color: #F9FAF8;
+  margin: 0px;
+}
+
+.call-content .sign-up-button {
+  border: 2px solid #F9FAF8;
 }
